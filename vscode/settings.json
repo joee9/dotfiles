@@ -22,7 +22,7 @@
     "oneDarkPro.editorTheme": "One Dark Pro",
     "oneDarkPro.vivid": true,
     "workbench.colorCustomizations": {
-        "editor.foreground": "#e6e6e6",
+        "editor.foreground": "#e6e6e6"
     },
 
     // formatting
@@ -81,6 +81,6 @@
     // ========== FOR LINUX KEYBINDINGS
     "keyboard.dispatch": "keyCode",
     "editor.accessibilitySupport": "off",
-    "jupyter.askForKernelRestart": false,
+    "jupyter.askForKernelRestart": false
 
 }
