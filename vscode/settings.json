@@ -1,0 +1,86 @@
+{
+    // Joe Nyhan, 14 January 2022
+    // VSCode Settings file
+
+
+    // ========== EDITOR
+    // vim
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    // "editor.cursorBlinking": "",
+    // "editor.cursorSmoothCaretAnimation": false,
+    // "editor.lineNumbers": "relative",
+
+    // snippets
+    "editor.suggestSelection": "first",
+    "editor.snippetSuggestions": "top",
+    "editor.suggest.showWords": false,
+    "editor.suggest.snippetsPreventQuickSuggestions":false,
+
+    // theme
+    "workbench.colorTheme": "One Dark Pro",
+    "oneDarkPro.editorTheme": "One Dark Pro",
+    "oneDarkPro.vivid": true,
+    "workbench.colorCustomizations": {
+        "editor.foreground": "#e6e6e6",
+    },
+
+    // formatting
+    "workbench.sideBar.location": "right",
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontFamily": "CaskaydiaCove Nerd Font Mono",
+    "terminal.integrated.cursorStyle": "line",
+    "editor.fontFamily": "JetBrainsMono Nerd Font",
+    "editor.fontSize": 13,
+    "editor.cursorStyle": "line",
+    "editor.lineNumbers": "on",
+    "editor.wordWrap": "on",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.tabSize" : 4,
+    "editor.insertSpaces": true,
+    "editor.guides.bracketPairs": true,
+	"editor.detectIndentation": false,
+    "editor.minimap.enabled": false,
+
+    // misc
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "typescript.suggest.paths": false,
+    "workbench.startupEditor": "welcomePage",
+    "window.zoomLevel": 1,
+    "terminal.integrated.tabs.enabled": true,
+    "workbench.editor.untitled.hint": "hidden",
+    "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+	"notebook.cellToolbarLocation": {
+		"default": "right",
+		"jupyter-notebook": "left"
+	},// 
+    
+    // ========== EXTENSION BASED
+    "remote.SSH.remotePlatform": {
+		"radius.holycross.edu": "linux",
+		"physics.holycross.edu": "linux"
+	},
+
+    "markdown-pdf.format": "Letter",
+
+    // ========== PYTHON
+
+    "python.pythonPath": "/home/joee9/anaconda3/bin/python",
+    "python.languageServer": "Pylance",
+    "jupyter.interactiveWindowMode": "perFile",
+    "terminal.integrated.inheritEnv": false,
+
+    // ========== LATEX
+    "latex-workshop.view.pdf.viewer": "tab",
+
+    // ========== GIT
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+
+    // ========== FOR LINUX KEYBINDINGS
+    "keyboard.dispatch": "keyCode",
+    "editor.accessibilitySupport": "off",
+    "jupyter.askForKernelRestart": false,
+
+}
