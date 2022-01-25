@@ -5,7 +5,7 @@
 *.bbl
 *.bcf
 *.blg
-*.fbd_latexmk
+*.fdb_latexmk
 *.fls
 *.log
 *.out
