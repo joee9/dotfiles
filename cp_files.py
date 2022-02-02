@@ -11,10 +11,11 @@ def main():
 
     assert len(argv) == 2 and argv[1] in ["to", "from"]
 
-    homepath = '/home/joee9/documents/dotfiles'
+    homepath = '/home/joee9/documents/personal/dotfiles'
 
     paths = [
-        {'sys_path': "/mnt/c/Users/Joe/AppData/Roaming/Code/User/settings.json",'save_path': f'{homepath}/vscode/settings.json'} # vscode settings file
+        {'sys_path': "/mnt/c/Users/nyhan/AppData/Roaming/Code/User/settings.json",'save_path': f'{homepath}/vscode/settings.json'}, # vscode settings file
+        {'sys_path': '/mnt/c/Users/nyhan/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/settings.json', 'save_path': f'{homepath}/windows_terminal/settings.json'}
     ]
 
     for info in paths:

@@ -31,7 +31,7 @@
     "terminal.integrated.fontFamily": "CaskaydiaCove Nerd Font Mono",
     "terminal.integrated.cursorStyle": "line",
     "editor.fontFamily": "JetBrainsMono Nerd Font",
-    "editor.fontSize": 13,
+    "editor.fontSize": 14,
     "editor.cursorStyle": "line",
     "editor.lineNumbers": "on",
     "editor.wordWrap": "on",
@@ -47,7 +47,6 @@
     "explorer.confirmDelete": false,
     "typescript.suggest.paths": false,
     "workbench.startupEditor": "welcomePage",
-    "window.zoomLevel": 1,
     "terminal.integrated.tabs.enabled": true,
     "workbench.editor.untitled.hint": "hidden",
     "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
@@ -81,6 +80,11 @@
     // ========== FOR LINUX KEYBINDINGS
     "keyboard.dispatch": "keyCode",
     "editor.accessibilitySupport": "off",
-    "jupyter.askForKernelRestart": false
+    "jupyter.askForKernelRestart": false,
+    "python.defaultInterpreterPath": "/home/joee9/anaconda3/bin/python",
+    "window.zoomLevel": 1,
+    "workbench.editorAssociations": {
+        "*.pyc": "default"
+    }
 
 }
