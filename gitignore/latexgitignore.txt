@@ -11,3 +11,5 @@
 *.out
 *.run.xml
 *.synctex.gz
+*.lua
+*/_markdown_main/*
